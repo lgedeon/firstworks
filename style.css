@@ -4,7 +4,7 @@
  Author:       Luke Gedeon
  Author URI:   http://luke.gedeon.name
  Template:     dt-the7
- Version:      1.3.0
+ Version:      1.3.3
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -21,7 +21,7 @@ body.page-template-default #main {
 }
 
 .page-template-default #main {
-	background: url("images/bkg-header-content.png") repeat scroll left top rgba(0, 0, 0, 0);
+	background: #dfe1e2;
 	padding-top: 0;
 }
 .items-grid.grid-ready .borders::before, .benefits-grid.grid-ready .borders::before, .logos-grid.grid-ready .borders::before {
@@ -63,14 +63,6 @@ body.page-template-default #main {
 
 .top-login {
 	display: none;
-}
-
-body.logged-in .top-login > a {
-	background: url("images/icon-logout.png") no-repeat scroll center center rgba(0, 0, 0, 0);
-	display: block;
-	height: 32px;
-	width: 43px;
-	font-size: 0;
 }
 
 .logo-left #navigation {
@@ -255,7 +247,7 @@ body.logged-in .top-login > a {
 
 .page-id-23221 .wpcf7-form input[type="submit"] {
 	background-color: white;
-	background-image: url("images/GO.png");
+	background-image: url("http://first-works.org/wp-content/uploads/2017/09/bkg-quote-title-red.png");
 	height: 35px;
 	width: 38px;
 }
@@ -554,7 +546,7 @@ body.logged-in .top-login > a {
 }
 
 .page-template-template-portfolio-masonry-php #main {
-	background: url("images/bkg-header-content.png") left top;
+	background: #dfe1e2;
 	padding-top: 10px;
 	padding-bottom: 35px;
 }
@@ -593,19 +585,19 @@ body.logged-in .top-login > a {
 }
 
 .page-template-template-albums-jgrid-php #main, .single-portfolio #main {
-	background: url("images/bkg-header-content.png") left top;
+	background: #dfe1e2;
 	padding-top: 0px;
 	padding-bottom: 30px;
 }
 
 .page-template-template-team-php #main {
-	background: url("images/bkg-header-content.png") left top;
+	background: #dfe1e2;
 	padding-top: 0px;
 	padding-bottom: 30px;
 }
 
 .page-id-22389 #main, .page-id-22387 #main, .page-id-22397 #main, .page-id-23169 #main, .page-id-23201 #main, .page-id-23205 #main, .page-id-22748 #main, .page-id-23275 #main, .page-id-23267 #main, .page-id-23408 #main, .page-id-23362 #main, page-id-23559 #main {
-	background: url("images/bkg-header-content-big.png") left top;
+	background: #dfe1e2;
 	padding-top: 0px;
 	padding-bottom: 30px;
 }
@@ -1011,7 +1003,7 @@ h2.entry-title a {
 }
 
 body.page-id-23221 #main, body.page-id-23236 #main {
-	background: url("images/bkg-header-content.png") repeat scroll left top rgba(0, 0, 0, 0);
+	background: #dfe1e2;
 	padding-bottom: 30px;
 	padding-top: 0;
 }
@@ -1137,7 +1129,7 @@ body.page-id-23221 #main, body.page-id-23236 #main {
 		background-image: url("images/slash-grey.png");
 	}
 	.quote h2, .quote-1-line h2  {
-		background: url("images/bkg-quote-title-red.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+		background: url("http://first-works.org/wp-content/uploads/2017/09/bkg-quote-title-red.png") no-repeat scroll left top rgba(0, 0, 0, 0);
 		color:#8C0957;
 		font-size:38px;
 	}
