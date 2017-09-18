@@ -93,8 +93,6 @@ function firstworks_action__wp_head () {
 		<?php
 	}
 	?>
-	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 	<?php
 }
 add_action( 'wp_head', 'firstworks_action__wp_head' );

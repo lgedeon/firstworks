@@ -4,7 +4,7 @@
  Author:       Luke Gedeon
  Author URI:   http://luke.gedeon.name
  Template:     dt-the7
- Version:      1.2.0
+ Version:      1.3.0
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -62,15 +62,7 @@ body.page-template-default #main {
 }
 
 .top-login {
-	float: right;
-	margin-right: 15px;
-	margin-top: 45px;
-	border-right: 1px solid #4c4c4c;
-	padding-right: 25px;
-	height: 23px;
-	cursor: pointer;
-	height: 31px;
-	padding-right: 20px;
+	display: none;
 }
 
 body.logged-in .top-login > a {
@@ -130,7 +122,7 @@ body.logged-in .top-login > a {
 }
 
 #main-nav > li.menu-item-23171 a {
-	color: #cb223c;
+	color: #8c0957;
 }
 
 #main-nav > li:hover > a, #main-nav > li > a:hover, #main-nav > li:hover > a span {
@@ -139,7 +131,7 @@ body.logged-in .top-login > a {
 
 /* red hover effect of menu */
 .parent-pageid-22393 #main-nav > li.menu-item-23148, .parent-pageid-22399 #main-nav > li.menu-item-23171, .parent-pageid-22397 #main-nav > li.menu-item-22407, .parent-pageid-22387 #main-nav > li.menu-item-22402, .parent-pageid-22389 #main-nav > li.menu-item-22403, .parent-pageid-22391 #main-nav > li.menu-item-22404, .parent-pageid-22395 #main-nav > li.menu-item-22406, .parent-pageid-22391 #main-nav > li.menu-item-23426 {
-	background-color: #cb223c;
+	background-color: #8c0957;
 	background-image: none;
 }
 
@@ -312,7 +304,7 @@ body.logged-in .top-login > a {
 }
 
 .footer-support-donate a {
-	color: #d2003c;
+	color: #8C0957;
 	line-height: 16px;
 	text-decoration: none;
 }
@@ -333,7 +325,7 @@ body.logged-in .top-login > a {
 }
 
 .footer-support-sponsor a {
-	color: #d2003c;
+	color: #8C0957;
 	line-height: 16px;
 	text-decoration: none;
 }
@@ -353,7 +345,7 @@ body.logged-in .top-login > a {
 }
 
 .footer-support-volunteer a {
-	color: #d2003c;
+	color: #8C0957;
 	line-height: 16px;
 	text-decoration: none;
 }
@@ -409,7 +401,7 @@ body.logged-in .top-login > a {
 }
 
 .bkg-grey h3, .bkg-grey-testimonial h3 {
-	color: #cb223c;
+	color: #8c0957;
 	font-size: 39px;
 	font-weight: 100;
 	line-height: 38px;
@@ -418,7 +410,7 @@ body.logged-in .top-login > a {
 
 .artist-boxed {
 	background-color: #ffffff;
-	border-left: 27px solid #cb223c;
+	border-left: 27px solid #8c0957;
 	padding-bottom: 14px;
 	padding-left: 25px;
 	padding-top: 13px;
@@ -426,7 +418,7 @@ body.logged-in .top-login > a {
 }
 
 .artist-boxed h4 {
-	color: #d2003c;
+	color: #8C0957;
 	font-size: 24px;
 	margin-bottom: 3px;
 	font-weight: 100;
@@ -496,8 +488,8 @@ body.logged-in .top-login > a {
 }
 
 #branding a img, #branding img {
-	width: 276px;
-	height: 124px;
+	width: 263px;
+	height: 132px;
 }
 
 .mini-search .submit, .mini-search .submit:hover {
@@ -552,7 +544,7 @@ body.logged-in .top-login > a {
 	padding: 20px 1000px;
 	margin-left: -1000px;
 	overflow: hidden;
-	background: #cb223c;
+	background: #8c0957;
 }
 
 .page-title.title-center {
@@ -655,7 +647,7 @@ body.logged-in .top-login > a {
 }
 
 #main-nav > li.current-menu-item {
-	background-color: #cb223c;
+	background-color: #8c0957;
 	background-image: none;
 }
 
@@ -722,7 +714,7 @@ body.logged-in .top-login > a {
 }
 
 .next-perform-event h3 {
-	color: #d2003c;
+	color: #8C0957;
 	font-size: 18px;
 	font-weight: 400;
 	margin-bottom: 0px;
@@ -830,7 +822,7 @@ h2.entry-title a {
 .ticket {
 	font: 600 18px/16px "Source Sans Pro", Helvetica, Arial, Verdana, sans-serif;
 	color: #fff;
-	background: #d2003c;
+	background: #8C0957;
 	padding: 6px 40px 8px 13px;
 	text-transform: uppercase;
 	margin-top: 10px;
@@ -1135,7 +1127,7 @@ body.page-id-23221 #main, body.page-id-23236 #main {
 	}
 	.page-title.title-center h1 {
 		font-size: 72px;
-		color: #cf0b3f;
+		color: #8C0957;
 		line-height: 60px;
 	}
 	.hr-breadcrumbs.divider-heder ol li a, .hr-breadcrumbs.divider-heder ol li {
@@ -1146,13 +1138,13 @@ body.page-id-23221 #main, body.page-id-23236 #main {
 	}
 	.quote h2, .quote-1-line h2  {
 		background: url("images/bkg-quote-title-red.png") no-repeat scroll left top rgba(0, 0, 0, 0);
-		color:#c8253f;
+		color:#8C0957;
 		font-size:38px;
 	}
 	.quote p  {
 		padding-top:0px;
 		padding-left:63px;
-		color:#c8253f;
+		color:#8C0957;
 	}
 	.bkg-grey, .bkg-grey-testimonial {
 		/* padding-top:150px; */
@@ -1164,7 +1156,7 @@ body.page-id-23221 #main, body.page-id-23236 #main {
 		line-height: 50px;
 	}
 	.quote-no h2  {
-		color:#c8253f;
+		color:#8C0957;
 	}
 	.empty-space-40 {
 		height:40px;
@@ -1223,10 +1215,10 @@ body.page-id-23221 #main, body.page-id-23236 #main {
 		background:#dfe1e2;
 	}
 	.quote-1-line p {
-		color:#c8253f;
+		color:#8C0957;
 	}
 	.listing-artists h2, .listing-events h2  {
-		color:#c8253f;
+		color:#8C0957;
 	}
 	.filter .filter-extras a  {
 		display:inline;
@@ -1299,7 +1291,7 @@ body.page-id-23221 #main, body.page-id-23236 #main {
 **                         */
 
 #main-nav li.menu-item.current-menu-ancestor {
-	background-color: #cb223c;
+	background-color: #8c0957;
 }
 #main-nav li.menu-item.current-menu-ancestor > a {
 	color: #fff;
@@ -1319,7 +1311,7 @@ body.page-id-23221 #main, body.page-id-23236 #main {
 }
 @media screen and (min-width: 1201px) {
 	.page-title {
-		background: #cb223c;
+		background: #8c0957;
 	}
 }
 
