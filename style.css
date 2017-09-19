@@ -4,7 +4,7 @@
  Author:       Luke Gedeon
  Author URI:   http://luke.gedeon.name
  Template:     dt-the7
- Version:      1.3.3
+ Version:      1.3.4
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -247,7 +247,7 @@ body.page-template-default #main {
 
 .page-id-23221 .wpcf7-form input[type="submit"] {
 	background-color: white;
-	background-image: url("http://first-works.org/wp-content/uploads/2017/09/bkg-quote-title-red.png");
+	background-image: url("http://first-works.org/wp-content/uploads/2017/09/GO.png");
 	height: 35px;
 	width: 38px;
 }
@@ -263,7 +263,7 @@ body.page-template-default #main {
 
 #text-2, #footer .widget_text_support-us {
 	width: 50%;
-	padding: 0 10px;
+	padding: 0 10px 0 8%;
 }
 
 .footer-bottom-bar-link li {
@@ -282,10 +282,8 @@ body.page-template-default #main {
 
 .footer-support-donate {
 	float: left;
-	background: url("images/bkg-donate.png") no-repeat left top;
 	width: 120px;
-	padding-left: 60px;
-	margin-right: 15px;
+	margin-right: 45px;
 	margin-bottom: 25px;
 	font-size:14px;
 }
@@ -303,10 +301,8 @@ body.page-template-default #main {
 
 .footer-support-sponsor {
 	float: left;
-	background: url("images/bkg-sponsor.png") no-repeat left top;
 	width: 120px;
-	padding-left: 65px;
-	margin-right: 15px;
+	margin-right: 45px;
 	margin-bottom: 25px;
 	font-size:14px;
 }
@@ -324,9 +320,7 @@ body.page-template-default #main {
 
 .footer-support-volunteer {
 	float: left;
-	background: url("images/bkg-volunteer.png") no-repeat left top;
 	width: 120px;
-	padding-left: 75px;
 	margin-bottom:25px;
 	font-size:14px;
 }
@@ -1322,9 +1316,6 @@ body.page-id-23221 #main, body.page-id-23236 #main {
 	}
 }
 
-body.logged-in .top-login > a {
-	background: url("/wp-content/themes/firstworks/images/icon-logout.png");
-}
 .mini-search .submit, .mini-search .submit:hover {
 	background: url("/wp-content/themes/firstworks/images/icon-search.png");
 }
